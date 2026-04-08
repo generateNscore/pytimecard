@@ -28,12 +28,12 @@ a = pytimecard.Admin()
 a.hw.mainloop()
 
 ```
-
+<li>Make a folder in your PC, save the file with the python code above in the folder, and run it to see the graphical user interface, as shown below:</li>
 <img width="662" height="851" alt="image" src="https://github.com/user-attachments/assets/fd380481-30dc-4278-9add-f80a40f40c6a" />
 
 <li>The image above shows the first of the two programs—the setup application. This program allows the employer to configure the main time-recording system so it operates correctly.</li>
 
-<li>The graphical interface is divided into two columns. The left column displays timestamp data organized by week. The data currently shown is simulated, but it can later be replaced with real records. By selecting a week and clicking the “Weekly Performance” button in the right column, a new window will open showing all employee timestamps for that selected week.</li>
+<li>The graphical interface is divided into two columns. The left column displays timestamp data organized by week. The data currently shown is simulated, which is different from yours, but it can later be replaced with real records. By selecting a week and clicking the “Weekly Performance” button in the right column, a new window will open showing all employee timestamps for that selected week.</li>
 
 <li>A list of employees is available in the white combobox. Select an employee from the dropdown menu and click the “User Performance” button to view all timestamps associated with that individual across the weeks displayed in the left column.</li>
 
@@ -85,6 +85,11 @@ a.hw.mainloop()
 
 <img width="642" height="932" alt="image" src="https://github.com/user-attachments/assets/15a45f2c-687a-49d6-94e4-e749f902925e" />
 
+<li>The program refreshes every second.</li>
+<li>Employees select their name from the combobox list and click one of the two available buttons: “IN” or “OUT.”</li>
+<li>As shown in the program, each employee is allowed a maximum of six clock-in/out actions per day. Each button click triggers the capture of the employee’s photo.</li>
+<li>All timestamps are recorded and saved to a file, and the corresponding photos are stored in a designated folder.</li>
+<li>Clock-in actions must occur before clock-out actions; otherwise, the system will not respond.</li>
 </ul>
 
 ## Changes
