@@ -11,11 +11,11 @@ This Python package records employee clock-in and clock-out times and stores the
 </ul>
 
 ## Features
-<ul><li>A complete package to record timestamps locally for unlimited number of employees.</li>
-<li>Employer can setup the parameters needed for the python program.</li>
-<li>All timestamps are organized on a weekly basis.</li>
-  <li>On Sunday, a new week data is initialized and all the pictures taken during the previous week are moved to the pre-assigned folder (details will be explained later). </li>
-  <li>During the execution of the program, only employer who knows the password can exit the program.</li>
+<ul>
+  <li>A complete package for recording timestamps locally for an unlimited number of employees.</li>
+  <li>The employer can configure all necessary program parameters.</li>
+  <li>Timestamps are organized on a weekly basis, with new weekly data automatically initialized every Sunday. At that time, all images captured during the previous week are transferred to a designated folder (details provided later).</li>
+  <li>During operation, only the employer—protected by a password—can exit the program.</li>
 </ul>
 
 ## How to use
@@ -31,23 +31,28 @@ a.hw.mainloop()
 
 <img width="662" height="851" alt="image" src="https://github.com/user-attachments/assets/fd380481-30dc-4278-9add-f80a40f40c6a" />
 
-<li>The captured image above displays the first program of the 2 programs; setting up program.</li>
-<li>This program enables employer to setup another program to run properly.</li>
-<li>This GUI program is divided into 2 columns; the left column displays the data of timestamps in unit of weeks.</li>
-<li>Currently the data shown was generated virturally; but it could be the real one later.</li>
-<li>Select one of the weeks shown and click the button "Weekly Performance" in the right column, then another window is popped up to display the whole timestamps of employees.</li>
-<li>The list of employees can be found in the white combobox.</li>
-<li>Click the combobox to select one employee and click the button "user Performance" to see all the timestamps he had over the entire weeks shown in the left column.</li>
-<li>The button "Add User" enables employer to add users, one at a time.</li>
-<li>The button "Remove User" enables employer to delete users, one at a time.</li>
-<li>The button "change Admin password" enables employer to set or change his password. The password prevents any employee from closing another program to record timestamps.</li>
-<li>The button "change pickle file" enables employer to setup the full path of the pickle file which is a python file that stores all timestamps.</li>
-<li>The button "change folder#1" enables employer to setup the folder where the pictures taken with any timestamps are stored temporarily.</li>
-<li>The button "change folder#2" enables employer to setup the folder where the pictures taken with any timestamps are stored permanently.</li>
-<li>The button "change Company name" enables employer to setup the name of the company to display here and there. Try to change the company name as "Company Name", and see the resulting appearance.</li>
-<li>The button "change PayPeriod reference" enables employer to setup the reference date for pay periods. Any employers might know the meaning of this. Try to change the date to a different value and see the resulting appearance.</li>
-<li>The button "save pickle" save all information in the pickle file shwon in the button of "change pickle file". </li>
-<li>The checkbutton in the red square is to be either chedcked or not checked as one wishes. For the virtual data, it would be better to check the checkbutton, and not for your own data later.</li>
+<li>The image above shows the first of the two programs—the setup application. This program allows the employer to configure the main time-recording system so it operates correctly.</li>
+
+<li>The graphical interface is divided into two columns. The left column displays timestamp data organized by week. The data currently shown is simulated, but it can later be replaced with real records. By selecting a week and clicking the “Weekly Performance” button in the right column, a new window will open showing all employee timestamps for that selected week.</li>
+
+<li>A list of employees is available in the white combobox. Select an employee from the dropdown menu and click the “User Performance” button to view all timestamps associated with that individual across the weeks displayed in the left column.</li>
+
+<li>The available controls provide the following functionality:</li>
+<ol>
+<li>“Add User”: Add employees one at a time.</li>
+<li>“Remove User”: Remove employees one at a time.</li>
+<li>“Change Admin Password”: Set or update the administrator password. This password prevents unauthorized users from closing the main timestamp-recording program.</li>
+<li>“Change Pickle File”: Specify the full path to the pickle file, which stores all timestamp data.</li>
+<li>“Change Folder #1”: Set the folder where images captured with timestamps are temporarily stored.</li>
+<li>“Change Folder #2”: Set the folder where images are permanently stored.</li>
+<li>“Change Company Name”: Define the company name displayed throughout the application. For example, try setting it to “Company Name” to see how it appears.</li>
+<li>“Change Pay Period Reference”: Set the reference date for pay periods. Adjusting this value will change how pay periods are calculated and displayed.</li>
+<li>“Save Pickle”: Save all current data to the pickle file specified under “Change Pickle File.”</li>
+</ol>
+
+<li>The checkbox highlighted in red can be toggled as desired. For testing with simulated data, it is recommended to keep it checked; for real-world use, it may be left unchecked.</li>
+
+<li>A new revised python code:</li>
 
 ```python
 
@@ -57,13 +62,16 @@ a.hw.mainloop()
 
 ```
 
-<li>The python code above is slightly different from the previous one.</li>
-<li>If the argument pikl is used when the module Admin() is called, the value for the argument pikl is the full path of the pickle file where all the information as well as all timestamps are stored.</li>
-<li>Please try the example as many times as you want until one you like is decided.</li>
+<li>This code differs slightly from the previous one. When the pikl argument is provided to Admin(), it specifies the full path to the pickle file where all configuration data and timestamps are stored.</li>
+
+<li>Feel free to experiment with different configurations until you find the setup that best suits your needs.</li>
+
+
 </ul>
+<br><br>
 
 <ul>
-
+<li>The second python program, main recording timestamps, can be called by a python code below:</li>
 ```python
 
 import pytimecard
@@ -71,7 +79,7 @@ a = pytimecard.PunchCards(pikl = r"D:\xyz\abc.pickle")
 a.hw.mainloop()
 
 ```
-
+<li>And the snapshot of the program is shown below:</li>
 
 
 <img width="642" height="932" alt="image" src="https://github.com/user-attachments/assets/15a45f2c-687a-49d6-94e4-e749f902925e" />
