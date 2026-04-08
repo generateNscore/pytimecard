@@ -65,13 +65,13 @@ a.hw.mainloop()
 <li>This code differs slightly from the previous one. When the pikl argument is provided to Admin(), it specifies the full path to the pickle file where all configuration data and timestamps are stored.</li>
 
 <li>Feel free to experiment with different configurations until you find the setup that best suits your needs.</li>
-
-
 </ul>
+
 <br><br>
 
 <ul>
 <li>The second python program, main recording timestamps, can be called by a python code below:</li>
+
 ```python
 
 import pytimecard
@@ -79,12 +79,14 @@ a = pytimecard.PunchCards(pikl = r"D:\xyz\abc.pickle")
 a.hw.mainloop()
 
 ```
+
 <li>And the snapshot of the program is shown below:</li>
 
 
 <img width="642" height="932" alt="image" src="https://github.com/user-attachments/assets/15a45f2c-687a-49d6-94e4-e749f902925e" />
 
 </ul>
+
 ## Changes
 <br>
 
