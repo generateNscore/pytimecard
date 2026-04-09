@@ -124,7 +124,7 @@ a.hw.mainloop()
 </ul>
 
 ## For any issues
-Please send me (smlee@inha.ac.kr) emails.
+Please send your emails about the issues to me (smlee@inha.ac.kr).
 ## Changes
 Nothing yet.
 
