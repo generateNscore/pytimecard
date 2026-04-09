@@ -48,6 +48,10 @@ This Python package records employee clock-in and clock-out times and stores the
 ## How to use
 <ul>
 
+<li>The package consists of 2 parts; the first part is for adminstrator to setup the environment and the second part is for employees to clock-in and clock-out.</li>
+<li>Below is the first part.</li>
+<li>Make a folder in your PC, save the file with the python code below in the folder. You can name the file anything. Run it to see the graphical user interface, as shown below:</li>
+
 ```python
 
 import pytimecard
@@ -55,7 +59,7 @@ a = pytimecard.Admin()
 a.hw.mainloop()
 
 ```
-<li>Make a folder in your PC, save the file with the python code above in the folder, and run it to see the graphical user interface, as shown below:</li>
+
 <img width="662" height="851" alt="image" src="https://github.com/user-attachments/assets/fd380481-30dc-4278-9add-f80a40f40c6a" />
 
 <li>The image above shows the first of the two programs—the setup application. This program allows the employer to configure the main time-recording system so it operates correctly.</li>
