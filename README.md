@@ -18,6 +18,20 @@ This Python package records employee clock-in and clock-out times and stores the
   <li>During operation, only the employer—protected by a password—can exit the program.</li>
 </ul>
 
+## If you are new to Python ...
+<ul>
+  <li>Install Python to the PC for the package</li>
+  <ol>
+    <li>Visit http://www.python.org</li>
+    <li>Select the tab "Downloads"</li>
+    <li>Click the button in grey with "Python 3.14.3" (as of now); the website will start to download the files...</li>
+    <li>Execute the downloaded file</li>
+    <li>Check the option "Add Python to PATH ... "</li>
+    
+  </ol>
+  
+</ul>
+
 ## How to use
 <ul>
 
