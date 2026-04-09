@@ -33,7 +33,7 @@ This Python package records employee clock-in and clock-out times and stores the
 <li>You’re halfway there! Next, you’ll need to install some third-party libraries, including the package you’ll be using.</li>
 <ol>
 <li>Right-click the Start button and select Windows Terminal (or Windows Terminal (Admin)).</li>
-<li>In the terminal window, type pip list and press Enter. You should see a list of installed packages. If not, consider reaching out for help.</li>
+<li>In the terminal window, type pip list and press Enter. You should see a list of installed packages. If not, consider reaching out for help. My email address is smlee@inha.ac.kr.</li>
 <li>At the next prompt, type pip install opencv-python and press Enter. Wait until the installation completes successfully.</li>
 <li>Then type pip install Pillow and press Enter, and wait for it to finish.</li>
 <li>Next, type pip install keyring and press Enter, and wait for completion.</li>
@@ -123,6 +123,8 @@ a.hw.mainloop()
 <li>Clock-in actions must occur before clock-out actions; otherwise, the system will not respond.</li>
 </ul>
 
+## For any issues
+Please send me (smlee@inha.ac.kr) emails.
 ## Changes
 Nothing yet.
 
