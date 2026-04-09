@@ -20,16 +20,29 @@ This Python package records employee clock-in and clock-out times and stores the
 
 ## If you are new to Python ...
 <ul>
-  <li>Install Python to the PC for the package</li>
+  <li>Install Python on Your PC</li>
   <ol>
     <li>Visit http://www.python.org</li>
-    <li>Select the tab "Downloads"</li>
-    <li>Click the button in grey with "Python 3.14.3" (as of now); the website will start to download the files...</li>
-    <li>Execute the downloaded file</li>
-    <li>Check the option "Add Python to PATH ... "</li>
-    
+    <li>Go to the Downloads tab</li>
+    <li>Click the gray button labeled “Download Python 3.14.4” (or the latest available version). The installer will begin downloading.</li>
+    <li>Once the download is complete, run the installer file.</li>
+    <li>Check the option “Add Python to PATH.”</li>
+    <li>Select "Install Now".</li>
   </ol>
+  <li>When the installation finishes, you should see the message “Setup was successful.”</li>
+<li>You’re halfway there! Next, you’ll need to install some third-party libraries, including the package you’ll be using.</li>
+<ol>
+<li>Right-click the Start button and select Windows Terminal (or Windows Terminal (Admin)).</li>
+<li>In the terminal window, type pip list and press Enter. You should see a list of installed packages. If not, consider reaching out for help.</li>
+<li>At the next prompt, type pip install opencv-python and press Enter. Wait until the installation completes successfully.</li>
+<li>Then type pip install Pillow and press Enter, and wait for it to finish.</li>
+<li>Next, type pip install keyring and press Enter, and wait for completion.</li>
+  <li>Lastly, type py -m pip install --index-url https://test.pypi.org/simple/ pytimecard and press Enter, and wait for completion.</li>
+<li>Finally, type pip list again to confirm that the new libraries are installed.</li>
+</ol>
+<li>You’re now all set to go!</li>
   
+  <li>Open the Start menu, find “IDLE (Python 3.14 64-bit)” among your installed applications, and launch it.</li>
 </ul>
 
 ## How to use
@@ -107,11 +120,7 @@ a.hw.mainloop()
 </ul>
 
 ## Changes
-<br>
+Nothing yet.
 
-
-```python
-
-```
 
 <br>
