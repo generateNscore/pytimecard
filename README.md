@@ -8,7 +8,7 @@ This Python package records employee clock-in and clock-out times and stores the
 <ul><li>cv2 # pip install opencv-python # for taking pictures via local webcam</li>
   <li>PIL # pip install Pillow # for displaying the pictures</li>
   <li>keyring # pip install keyring # for the adminstrator's password</li>
-  <li>openpyxl # pip install openpyxl # for Microsoft Excel sheet generation</li>version > 0.05
+  <li>openpyxl # pip install openpyxl # for Microsoft Excel sheet generation (version > 0.05)</li>
 </ul>
 
 ## Features
