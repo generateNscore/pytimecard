@@ -8,7 +8,7 @@ This Python package records employee clock-in and clock-out times and stores the
 <ul><li>cv2 # pip install opencv-python # for taking pictures via local webcam</li>
   <li>PIL # pip install Pillow # for displaying the pictures</li>
   <li>keyring # pip install keyring # for the adminstrator's password</li>
-  <li>openpyxl # pip install openpyxl # for Microsoft Excel sheet generation</li>
+  <li>openpyxl # pip install openpyxl # for Microsoft Excel sheet generation</li>version > 0.05
 </ul>
 
 ## Features
@@ -67,11 +67,11 @@ a.hw.mainloop()
 
 <li>The graphical interface is divided into two columns. The left column displays timestamp data organized by week. The data currently shown is simulated, which is different from yours, but it can later be replaced with real records. By selecting a week and clicking the “Weekly Performance” button in the right column, a Microsoft Excel sheet for the weekly performance is generated and opened if you have a Microsoft Excel, like below:</li>
 <img width="719" height="852" alt="image" src="https://github.com/user-attachments/assets/c70b8e1a-16a8-4591-b219-12254a8ef96a" />
-
+version > 0.05
 
 <li>A list of employees is provided in the white combobox. Select an employee from the dropdown menu, select a week, and click the “User Performance” button to view all timestamps associated with that individual over the week selected in an Excel sheet as shown below:</li>
 <img width="683" height="975" alt="image" src="https://github.com/user-attachments/assets/9663a816-dd1e-4f61-8a94-53f96e87a4e1" />
-
+version > 0.05
 
 
 <li>The available controls provide the following functionality:</li>
