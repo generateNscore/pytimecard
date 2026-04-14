@@ -69,7 +69,10 @@ a.hw.mainloop()
 <img width="719" height="852" alt="image" src="https://github.com/user-attachments/assets/c70b8e1a-16a8-4591-b219-12254a8ef96a" />
 
 
-<li>A list of employees is available in the white combobox. Select an employee from the dropdown menu and click the “User Performance” button to view all timestamps associated with that individual across the weeks displayed in the left column.</li>
+<li>A list of employees is provided in the white combobox. Select an employee from the dropdown menu, select a week, and click the “User Performance” button to view all timestamps associated with that individual over the week selected in an Excel sheet as shown below:</li>
+<img width="683" height="975" alt="image" src="https://github.com/user-attachments/assets/9663a816-dd1e-4f61-8a94-53f96e87a4e1" />
+
+
 
 <li>The available controls provide the following functionality:</li>
 <ol>
