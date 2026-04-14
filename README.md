@@ -38,6 +38,7 @@ This Python package records employee clock-in and clock-out times and stores the
 <li>At the next prompt, type pip install opencv-python and press Enter. Wait until the installation completes successfully.</li>
 <li>Then type pip install Pillow and press Enter, and wait for it to finish.</li>
 <li>Next, type pip install keyring and press Enter, and wait for completion.</li>
+<li>Next, type pip install openpyxl and press Enter, and wait for completion (version > 0.05).</li>
   <li>Lastly, type py -m pip install --index-url https://test.pypi.org/simple/ pytimecard and press Enter, and wait for completion.</li>
 <li>Finally, type pip list again to confirm that the new libraries are installed.</li>
 </ol>
