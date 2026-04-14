@@ -133,7 +133,10 @@ a.hw.mainloop()
 ## For any issues
 Please send your emails about the issues to me (smlee@inha.ac.kr).
 ## Changes
-Nothing yet.
-
+<ul>
+<li>Version 0.0.6</li>
+<ul><li>All timestamps are used to generate Microsoft Excel sheets, so that administrator can do further editing with the timestamps.</li>
+<li>To use this feature, a new python library "openpyxl" has to be installed</li>
+</ul>
 
 <br>
