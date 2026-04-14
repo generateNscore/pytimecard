@@ -85,7 +85,7 @@ version > 0.05
 <li>“Change Folder #2”: Set the folder where images are permanently stored.</li>
 <li>“Change Company Name”: Define the company name displayed throughout the application. For example, try setting it to “Company Name” to see how it appears.</li>
 <li>“Change Pay Period Reference”: Set the reference date for pay periods. Adjusting this value will change how pay periods are calculated and displayed.</li>
-<li>“Save Pickle”: Save all current data to the pickle file specified under “Change Pickle File.”</li>
+<li>“Save Pickle”: Save all current data to the pickle file specified under “Change Pickle File.” Saving is so importnat that the actual timestamps in future are all saved to the file.</li>
 </ol>
 
 <li>The checkbox highlighted in red can be toggled as desired. For testing with simulated data, it is recommended to keep it checked; for real-world use, it may be left unchecked.</li>
